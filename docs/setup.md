@@ -9,21 +9,27 @@ If anyone attending does not have access to a laptop running one of the above ch
 
 ## What we are installing
 
+### All students:
+
 By the end of these instructions, you will have the following installed:
 
 * Java, a "virtual machine" that Clojure runs atop of
 * Leiningen, a tool for running Clojure programs
-* Light Table, an editor for Clojure and other programming languages
-* The Heroku Toolbelt, a program for putting your Clojure application on the web
-* Git, a program for managing your program's code, which is included in the Heroku Toolbelt
-* An Internet Relay Chat (IRC) client
+* Nightcode, an editor for Clojure and other programming languages
+ 
+### Track 2 students will additionally install:
+
+* Git, a program for managing your program's code 
 
 And you will have:
 
+<!--
 * Created a ````ssh```` key (the public part of which will be uploaded to github and heroku)
 * Copied the example chat application with ````git clone````
 * Pushed your copy of the chat application to heroku
 * Joined the ````#clojure.mn```` IRC channel
+-->
+* Joined the Boston ClojureBridge learners slack channel: a place to ask and answer Clojure questions during and after the workshop. 
 
 ## Instructions by operating system
 
