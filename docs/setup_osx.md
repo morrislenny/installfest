@@ -4,8 +4,6 @@ OS X Setup
 * [Start a terminal](#starting-a-terminal)
 * [Make sure Java is installed](#making-sure-java-is-installed)
 * [Get Leiningen installed](#installing-leiningen)
-* [Get Light Table installed](#installing-light-table)
-* [Get Heroku installed (includes Git)](#getting-setup-with-heroku)
 * [Test installation](#testing-your-setup)
 
 ## Starting a terminal
@@ -48,47 +46,11 @@ source .bashrc
 
 After you run the above commands, run the `lein version` command. It should take a while to run, as it will download some resources it needs the first time. If it completes successfully, you are golden! If not, ask an instructor for help.
 
-## Installing Light Table
+## Installing NightCode
 
-Go to the [Light Table site](http://www.lighttable.com/). On the page there, you should see a set of buttons that have download links for Light Table. Click the "OS X 10.7+" button and you will download a .zip file.
+Go to the [NightCode site](https://sekao.net/nightcode/). On the page there, click on `Free Download (Version 1.0.1)` and you will download a `.jar` file. 
 
-![Light Table downloads](img/os_x/light-table-download.png)
-
-There should now be a file named LightTableMac.zip in your Downloads folder. Double-click the file to unzip it, then move LightTable.app to your Applications folder.
-
-## Getting setup with Heroku
-
-Heroku is the tool we will use in order to put your application online where others can see it.
-
-First, we need to create an account. Go to [Heroku](http://heroku.com) and click the "Sign up" link.
-
-![Heroku step 1](img/heroku-step1.png)
-
-You will be taken to a form where you can create an account. Fill out that form, and you will be sent an email with a link to click to continue the signup process.
-
-![Heroku step 2](img/heroku-step2.png)
-
-After clicking on the link, you will be taken to another form where you will need to choose a password. Choose one and enter it twice.
-
-![Heroku step 3](img/heroku-step3.png)
-
-After all that, go [here](https://devcenter.heroku.com/articles/getting-started-with-clojure#set-up) and click "Download Heroku Toolbelt for Mac OS X".
-
-![Heroku dashboard](img/heroku-getting-started.png)
-
-If you do not see this link, you can download the toolbelt from [toolbelt.heroku.com](https://toolbelt.heroku.com/).
-
-This will download a .pkg file. Double-click it to install the Heroku Toolbelt and follow all prompts from the installation wizard. You will need your OS X account password to complete installation. If you are prompted to create an SSH key, say yes. It may also prompt you to install git. Once the Heroku Toolbelt is installed, go to your terminal and run the command `heroku login`. You will be prompted for your email and password on Heroku. If you enter them and the command ends successfully, congratulations!
-
-![Heroku login](img/os_x/heroku_login.png)
-
-To make your computer automatically communicate securely with Heroku, you will need to set up SSH. First, go to your terminal and run the command `ssh-keygen`. When prompted for inputs, simply press Return until the process has finished.
-
-![Heroku SSH setup](img/os_x/heroku_ssh_setup.png)
-
-Finally, complete your SSH setup with Heroku by running the command `heroku keys:add`.
-
-![Heroku key-add](img/os_x/heroku_key_add.png)
+There should now be a file named `nightcode-1.0.1-standalone.jar` in your Downloads folder, move it to your Applications folder.
 
 ## Testing your setup
 
