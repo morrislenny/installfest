@@ -26,11 +26,11 @@ If Java is installed, you will see something like this in your terminal:
 
 ![Java version](img/os_x/java_version.png)
 
-The details of Java's version may differ from what you see above; that is perfectly fine.
+The details of Java's version may differ from what you see above; that is perfectly fine. If the command line tells says something like `command not found` that means you don't have java installed. Go [here](http://www.oracle.com/technetwork/java/javase/downloads/index.html) and click **JDK Download** to install the java development environment
 
 ## Installing Leiningen
 
-Leiningen is a tool used on the command line to manage Clojure projects.
+Leiningen is a tool used on the command line to manage Clojure projects. **You only need to install Leiningen if you are in track 2.**
 
 To install `lein`, execute the following commands in your terminal. You will be prompted to enter your password.
 
@@ -47,81 +47,32 @@ source .bashrc
 After you run the above commands, run the `lein version` command. It should take a while to run, as it will download some resources it needs the first time. If it completes successfully, you are golden! If not, ask an instructor for help.
 
 ## Installing NightCode
+Nightcode will be where you will be actually doing you Clojure programming! 
+
+![Nightcode IDE](https://sekao.net/nightcode/screenshot.png)   
 
 Go to the [NightCode site](https://sekao.net/nightcode/). On the page there, click on `Free Download (Version 1.0.1)` and you will download a `.jar` file. 
 
 There should now be a file named `nightcode-1.0.1-standalone.jar` in your Downloads folder, move it to your Applications folder.
 
-## Testing your setup
-
-You have set up Java, Leiningen, Light Table, Git, and Heroku on your computer--all the tools you will need for this course. Before starting, we need to test them out.
-
-Go to your terminal and run the following command:
+You should be able to open NightCode by just double clicking on `nightcode-1.0.1-standalone.jar` but if that doesn't work you will need to open the terminal(see above) and type `java -jar <path to nightcode download>`. Here is an example, if you have downloaded Nightcode to `~/tools/nightcode`, you would type the following in the terminal.
 
 ```
-git clone https://github.com/heroku/clojure-sample.git
+java -jar ~/tools/nightcode/nightcode-1.0.1-standalone.jar
 ```
 
-This will check out a sample Clojure application from GitHub, a central repository for lots of source code. Your terminal should look similar to this picture:
+## Cloning a git Repository
+git is a neat tool that is sort of like dropbox for code. It allows many people to collaborate on projects and make their code open to the rest of the world! We have prepared some code for both track 1 and track 2 that will run the lessons you will be using. The process of getting this code is called *cloning* and Nightcode has some nice tools that makes that process super easy! You will need to open NightCode and follow these instructions. 
 
-![Testing git clone](img/os_x/testing-step1.png)
 
-Then run the command:
+ 1. Click `New Project`
+ 2. Select a folder location for your project, type in your project name (say CBB) in the `File Name` form and click `Save`.
+ 3. On the `Specify Project Type` screen, click `Download`. 
+ 4. If you are in **track 1**, type in `https://github.com/clojurebridge-boston/track1-turtles.git` where it says `git address`.
+ 5. If you are in **track 2**, type in `https://github.com/clojurebridge-boston/track2-functional.git` where it says `git address`.
 
-```
-cd clojure-sample
-```
 
-This will put you in the directory with the source code for this sample bit of Clojure code. After that completes, run:
-
-```
-lein repl
-```
-
-This could take a long time, and will download many other pieces of code it relies on. You should see lines that start with `Retrieving ...` on your screen. When it finishes, your terminal should look like the following:
-
-![Testing lein repl](img/os_x/testing-step2.png)
-
-This is starting a REPL, which we will learn about soon. It's a special terminal for Clojure. At the REPL prompt, type `(+ 1 1)` and press Return. Did you get the answer `2` back? You will learn more about that in the course. For now, press the Control button and D button on your keyboard together (abbreviated as Ctrl+D). This should take you out of the Clojure REPL and back to your normal terminal prompt.
-
-Now, start Light Table. Once it is started, press the Control button and Space Bar together (abbreviated Ctrl+Space). This is how you start giving Light Table a command. Start typing the word "instarepl" and you should see a menu of options, like below. Choose "Instarepl: open a clojure instarepl."
-
-![Testing Light Table - starting instarepl](img/os_x/testing-step3.png)
-
-At the bottom of the screen, you will see a cube moving and some text about connecting and installing dependencies. Once that stops moving, type `(+ 1 1)` into the window. It should look like the following image:
-
-![Testing Light Table - running in the instarepl](img/os_x/testing-step4.png)
-
-If that worked, great! Close Light Table. We only have one more thing to test, Heroku.
-
-Go back to your terminal. You should still be in the `clojure-sample` directory.
-
-Run this command:
-
-`heroku create`
-
-There should be output about something being created. A URL will be displayed. Look at the following example:
-
-![Testing heroku create](img/os_x/testing-step5.png)
-
-Next, run the following commands:
-
-```
-git push heroku master
-heroku open
-```
-
-Enter "yes" if you are asked if you are sure you want to connect, like in the following image:
-
-![Connecting via SSH](img/os_x/testing-step6.png)
-
-Your browser should open (and take a long time to load), and you should see a website like the following:
-
-![Testing heroku working](img/os_x/testing-step7.png)
-
-If your browser does not open after running `heroku open`, start a browser and go to the URL displayed after you ran `heroku create`.
-
-Congratulations! That website is running code you have on your computer that you have uploaded. You have actually made a very simple Clojure app, and your computer is all set up to make more.
+That should be it!
 
 ## Try the koans
 
