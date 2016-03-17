@@ -61,6 +61,19 @@ You should be able to open NightCode by just double clicking on `nightcode-1.0.1
 java -jar ~/tools/nightcode/nightcode-1.0.1-standalone.jar
 ```
 
+## Cloning a git Repository
+git is a neat tool that is sort of like dropbox for code. It allows many people to collaborate on projects and make their code open to the rest of the world! We have prepared some code for both track 1 and track 2 that will run the lessons you will be using. The process of getting this code is called *cloning* and Nightcode has some nice tools that makes that process super easy! You will need to open NightCode and follow these instructions. 
+
+
+ 1. Click `New Project`
+ 2. Select a folder location for your project, type in your project name (say CBB) in the `File Name` form and click `Save`.
+ 3. On the `Specify Project Type` screen, click `Download`. 
+ 4. If you are in track 1, type in `https://github.com/clojurebridge-boston/track1-turtles.git` where it says `git address`.
+ 5. If you are in track 2, type in `https://github.com/clojurebridge-boston/track2-functional.git` where it says `git address`.
+
+
+That should be it!
+
 ## Try the koans
 
 If you're a track 2 student, try to tackle running the [koans](koans.md).
