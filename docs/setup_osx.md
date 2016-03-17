@@ -32,7 +32,7 @@ The details of Java's version may differ from what you see above; that is perfec
 
 ## Installing Leiningen
 
-Leiningen is a tool used on the command line to manage Clojure projects.
+Leiningen is a tool used on the command line to manage Clojure projects. **You only need to install Leiningen if you are in track 2.**
 
 To install `lein`, execute the following commands in your terminal. You will be prompted to enter your password.
 
