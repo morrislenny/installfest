@@ -28,7 +28,7 @@ If Java is installed, you will see something like this in your terminal:
 
 ![Java version](img/os_x/java_version.png)
 
-The details of Java's version may differ from what you see above; that is perfectly fine.
+The details of Java's version may differ from what you see above; that is perfectly fine. If the command line tells says something like `command not found` that means you don't have java installed. Go [here](http://www.oracle.com/technetwork/java/javase/downloads/index.html) and click **JDK Download** to install the java development environment
 
 ## Installing Leiningen
 
