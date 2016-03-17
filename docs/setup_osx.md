@@ -68,8 +68,8 @@ git is a neat tool that is sort of like dropbox for code. It allows many people 
  1. Click `New Project`
  2. Select a folder location for your project, type in your project name (say CBB) in the `File Name` form and click `Save`.
  3. On the `Specify Project Type` screen, click `Download`. 
- 4. If you are in track 1, type in `https://github.com/clojurebridge-boston/track1-turtles.git` where it says `git address`.
- 5. If you are in track 2, type in `https://github.com/clojurebridge-boston/track2-functional.git` where it says `git address`.
+ 4. If you are in **track 1**, type in `https://github.com/clojurebridge-boston/track1-turtles.git` where it says `git address`.
+ 5. If you are in **track 2**, type in `https://github.com/clojurebridge-boston/track2-functional.git` where it says `git address`.
 
 
 That should be it!
