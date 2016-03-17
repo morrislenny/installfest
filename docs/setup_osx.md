@@ -47,10 +47,19 @@ source .bashrc
 After you run the above commands, run the `lein version` command. It should take a while to run, as it will download some resources it needs the first time. If it completes successfully, you are golden! If not, ask an instructor for help.
 
 ## Installing NightCode
+Nightcode will be where you will be actually doing you Clojure programming! 
+
+![Nightcode IDE](https://sekao.net/nightcode/screenshot.png)   
 
 Go to the [NightCode site](https://sekao.net/nightcode/). On the page there, click on `Free Download (Version 1.0.1)` and you will download a `.jar` file. 
 
 There should now be a file named `nightcode-1.0.1-standalone.jar` in your Downloads folder, move it to your Applications folder.
+
+You should be able to open NightCode by just double clicking on `nightcode-1.0.1-standalone.jar` but if that doesn't work you will need to open the terminal(see above) and type `java -jar <path to nightcode download>`. Here is an example, if you have downloaded Nightcode to `~/tools/nightcode`, you would type the following in the terminal.
+
+```
+java -jar ~/tools/nightcode/nightcode-1.0.1-standalone.jar
+```
 
 ## Try the koans
 
