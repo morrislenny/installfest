@@ -5,7 +5,6 @@ Windows 7 Setup
 * Get Java installed
 * Get Nightcode installed
 * Test installation
-* Troubleshooting
 
 <!--
 ## Starting a command prompt
@@ -44,14 +43,6 @@ You should see if you are running 32- or 64-bit Windows beside "System Type."
 Once you have downloaded the right Java version, run the executable you downloaded to by double-clicking on it. Follow the installation wizard.
 
 Note: when you are asked for a name of the folder that Java would be installed in, make sure that the suggested folder name has no spaces in it. If there are spaces, replace them with underscores. 
-
-<!-- Not sure if needed -EM
-## Installing Leiningen
-
-Leiningen is a tool used on the command line to manage Clojure projects.
-
-Next, go back to [the Leiningen Windows installer site](http://leiningen-win-installer.djpowell.net/) and download the file linked as "leiningen-win-installer." Run this executable and follow the "Detailed installation" section at the Leiningen Windows Installer site. At the end of the installation, leave "Run a Clojure REPL" checked before you click "Finish." If a terminal window opens that looks like the one on the Leiningen Windows installer site, then you are good to go.
--->
 
 ## Installing Nightcode
 
