@@ -1,10 +1,10 @@
 OS X Setup
 ==========
 
-* [Start a terminal](#starting-a-terminal)
-* [Make sure Java is installed](#making-sure-java-is-installed)
-* [Get Leiningen installed](#installing-leiningen)
-* [Test installation](#testing-your-setup)
+* Start a terminal
+* Make sure Java is installed
+* Get Nightcode installed
+* Test installation
 
 ## Starting a terminal
 
