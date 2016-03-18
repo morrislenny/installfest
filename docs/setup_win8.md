@@ -69,7 +69,7 @@ This should start Nightcode.
 
 Now follow to instructions for your track to get the Clojure project you will be working on: 
 
-- [Track 1: turtles](setup-track1.md).
-- [Track 2: Clojure koans](setup-track2.md). 
+- [Track 1: turtles](setup_track1.md).
+- [Track 2: Clojure koans](setup_track2.md). 
 
 

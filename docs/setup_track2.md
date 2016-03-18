@@ -1,6 +1,3 @@
-Installfest: Getting Track 1 project
-===========================
-
 # Getting the Track 2 project: Clojure koans. 
 
 ## Cloning the koans project from a git repository
@@ -11,7 +8,7 @@ git is a neat tool that is sort of like dropbox for code. It allows many people 
  1. Click `New Project`
  2. Select a folder location for your project, type in your project name (say CBB) in the `File Name` form and click `Save`.
  3. On the `Specify Project Type` screen, click `Download`. 
- 4. Type in `https://github.com/clojurebridge-boston/track2-functional.git` where it says `git address`.
+ 4. Type in `https://github.com/clojurebridge-minneapolis/clojure-koans.git` where it says `git address`.
  5. Press enter to get the project. 
 
 That should be it!
