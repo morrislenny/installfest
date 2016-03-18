@@ -33,7 +33,7 @@ Nightcode will be where you will be actually doing you Clojure programming!
 
 ![Nightcode IDE](https://sekao.net/nightcode/screenshot.png)   
 
-Go to the [NightCode site](https://sekao.net/nightcode/). On the page there, click on `Free Download (Version 1.0.1)` and you will download a `.jar` file. 
+Click here [NightCode 1.0.1]([Nightcode 1.0.1](https://github.com/oakes/Nightcode/releases/download/1.0.1/nightcode-1.0.1-standalone.jar) to download Nightcode. 
 
 There should now be a file named `nightcode-1.0.1-standalone.jar` in your Downloads folder, move it to your Applications folder.
 
