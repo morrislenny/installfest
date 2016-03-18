@@ -16,10 +16,11 @@ By the end of these instructions, you will have the following installed:
 * Java, a "virtual machine" that Clojure runs atop of
 * Leiningen, a tool for running Clojure programs
 * Nightcode, an editor for Clojure and other programming languages
+* Git, a program for getting the starting code for Clojure projects
  
 ### Track 2 students will additionally install:
 
-* Git, a program for managing your program's code 
+* Leinigen, a program for managing Clojure projects
 
 And you will have:
 
