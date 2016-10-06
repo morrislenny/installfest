@@ -1,7 +1,6 @@
 Windows 8 (and higher) Setup
 ===============
 
-* Start a command prompt
 * Get Java installed
 * Get Nightcode installed
 * Test installation
@@ -46,26 +45,16 @@ Note: when you are asked for a name of the folder that Java would be installed i
 
 ## Installing Nightcode
 
-Nightcode is a clojure IDE that comes bundled with other tools in the
+Nightcode is a Clojure IDE that comes bundled with other tools in the
 clojure development stack. 
 
 ![Nightcode IDE](https://sekao.net/nightcode/screenshot.png)
 
-# Install Nightcode
+To download and install Nightcode, go to [https://sekao.net/nightcode/](https://sekao.net/nightcode/), scroll down a bit to **Download Version 2.1.5** and click on the Windows icon. This will download an installer `Nightcode-2.1.5.exe`. Double-click on it to start. 
 
-Download Nightcode 1.0.1 from the link below into a tools folder like `~/tools/nightcode`
+You may get a message indicating that this type of files may be harmful for your computer and asking you if you still would like to run it. Allow running it. If you get a message that the firewall has blocked some of its features, click "allow access". 
 
-[Nightcode 1.0.1](https://github.com/oakes/Nightcode/releases/download/1.0.1/nightcode-1.0.1-standalone.jar)
-
-Open a command shell and type `java -jar <path to nightcode download>`. For example, if you have downloaded Nightcode to `~/tools/nightcode` type the following in a command shell.
-
-```
-java -jar ~/tools/nightcode/nightcode-1.0.1-standalone.jar
-```
-
-To open a command shell, (Windows Key + R) and then type `cmd` and enter.
-
-This should start Nightcode.
+Once Nightcode is successfully installed, it will start and look like the picture above (only without all the code). 
 
 Now follow to instructions for your track to get the Clojure project you will be working on: 
 
