@@ -39,14 +39,18 @@ Go to [Oracle Java Development Kit (JDK) 8 download site](http://www.oracle.com/
 Nightcode is a Clojure IDE (Integrated Development Environment, which means that it is a text editor, like Word, only specialized for writing programs) that comes bundled with other tools useful for 
 working with Clojure. 
 
-![Nightcode IDE](img/nightcode.jpg)
+![Nightcode IDE](img/nightcode.png)
 
-To download and install Nightcode, go to [https://sekao.net/nightcode/](https://sekao.net/nightcode/), scroll down a bit to **Download Version 2.1.5** and click on the Mac icon. This will download the file `nightcode-2.1.5.dmg`. Double-click on it to run it. 
+Note that we will be using Nightcode **1.3.2**, not any of the later versions of Nightcode. 
+
+To download and install Nightcode 1.3.2, go to [https://github.com/oakes/Nightcode/releases/tag/1.3.2](https://github.com/oakes/Nightcode/releases/tag/1.3.2). 
+Under Downloads, click on **nightcode-1.3.2-standalone.jar**. 
+Once it downloads, you might want to drag it into your `Programs` folder or any other place where it would be convenient to access it later (you also might want to create a folder for Clojure work and put it there). 
+After you move it, double-click on it to start. 
 
 You may get a message indicating that this type of files may be harmful for your computer and asking you if you still would like to run it. Allow running it. If you get a message that the firewall has blocked some of its features, click "allow access". 
 
 Once Nightcode is successfully installed, it will start and look like the picture above (only without all the code).
-
 
 Now follow to instructions for your track to get the Clojure project you will be working on: 
 
