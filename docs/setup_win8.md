@@ -45,10 +45,10 @@ Note: when you are asked for a name of the folder that Java would be installed i
 
 ## Installing Nightcode
 
-Nightcode is a Clojure IDE that comes bundled with other tools in the
-clojure development stack. 
+Nightcode is a Clojure IDE (Integrated Development Environment, which means that it is a text editor, like Word, only specialized for writing programs) that comes bundled with other tools useful for 
+working with Clojure. 
 
-![Nightcode IDE](http://sekao.net/nightcode/screenshot.png)
+![Nightcode IDE](img/nightcode.jpg)
 
 To download and install Nightcode, go to [https://sekao.net/nightcode/](https://sekao.net/nightcode/), scroll down a bit to **Download Version 2.1.5** and click on the Windows icon. This will download an installer `Nightcode-2.1.5.exe`. Double-click on it to start. 
 
