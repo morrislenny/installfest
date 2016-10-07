@@ -1,11 +1,11 @@
 OS X Setup
 ==========
 
-* Start a terminal
-* Make sure Java is installed
+* Install Java 
 * Get Nightcode installed
 * Test installation
 
+<!--
 ## Starting a terminal
 
 For these instructions you will need to have a terminal, or command line, open. This is a text-based interface to talk to your computer, and you can open it by running Terminal.app, which is found under `/Applications/Utilities`. If you have never used the terminal before, you may want to spend some time [reading up on command-line basics](http://blog.teamtreehouse.com/command-line-basics).
@@ -27,21 +27,26 @@ If Java is installed, you will see something like this in your terminal:
 ![Java version](img/os_x/java_version.png)
 
 The details of Java's version may differ from what you see above; that is perfectly fine. If the command line tells says something like `command not found` that means you don't have java installed. Go [here](http://www.oracle.com/technetwork/java/javase/downloads/index.html) and click **JDK Download** to install the java development environment
+-->
 
-## Installing NightCode
-Nightcode will be where you will be actually doing you Clojure programming! 
+## Installing Java
+Go to [Oracle Java Development Kit (JDK) 8 download site](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html).  You should see a screen with various download options. Accept the license agreement and select Mac OS X:
 
-![Nightcode IDE](https://sekao.net/nightcode/screenshot.png)   
+![Java version](img/os_x/mac-java.jpg)
 
-Click here [NightCode 1.0.1]([Nightcode 1.0.1](https://github.com/oakes/Nightcode/releases/download/1.0.1/nightcode-1.0.1-standalone.jar) to download Nightcode. 
+## Installing Nightcode
 
-There should now be a file named `nightcode-1.0.1-standalone.jar` in your Downloads folder, move it to your Applications folder.
+Nightcode is a Clojure IDE (Integrated Development Environment, which means that it is a text editor, like Word, only specialized for writing programs) that comes bundled with other tools useful for 
+working with Clojure. 
 
-You should be able to open NightCode by just double clicking on `nightcode-1.0.1-standalone.jar` but if that doesn't work you will need to open the terminal(see above) and type `java -jar <path to nightcode download>`. Here is an example, if you have downloaded Nightcode to `~/tools/nightcode`, you would type the following in the terminal.
+![Nightcode IDE](img/nightcode.jpg)
 
-```
-java -jar ~/tools/nightcode/nightcode-1.0.1-standalone.jar
-```
+To download and install Nightcode, go to [https://sekao.net/nightcode/](https://sekao.net/nightcode/), scroll down a bit to **Download Version 2.1.5** and click on the Mac icon. This will download the file `nightcode-2.1.5.dmg`. Double-click on it to run it. 
+
+You may get a message indicating that this type of files may be harmful for your computer and asking you if you still would like to run it. Allow running it. If you get a message that the firewall has blocked some of its features, click "allow access". 
+
+Once Nightcode is successfully installed, it will start and look like the picture above (only without all the code).
+
 
 Now follow to instructions for your track to get the Clojure project you will be working on: 
 
