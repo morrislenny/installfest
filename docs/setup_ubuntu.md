@@ -2,10 +2,10 @@ Ubuntu Setup
 ==========
 
 * Start a terminal
-* Make sure Java is installed
+* Install Java if needed
 * Get Nightcode installed
 * Test installation
-* 
+
 ## Starting a terminal
 
 For these instructions you will need to have a terminal, or command line, open. This is a text-based interface to talk to your computer, and you can open it by clicking "Dash Home" and typing `Terminal`. You can also open a terminal at any time by pressing `CTRL-ALT-T`. If you have never used the terminal before, you may want to spend some time [reading up on command-line basics](http://blog.teamtreehouse.com/command-line-basics).
@@ -24,28 +24,28 @@ Run `java -version` in your terminal. If you do not have Java installed, Ubuntu 
 
 ![no java](img/ubuntu/no_java.png)
 
-Follow all of the directions Ubuntu gives you, selecting the package "openjdk-7-jre-headless" then return to this part of the tutorial and run `java -version` again.
+Follow all of the directions Ubuntu gives you, selecting the package "openjdk-8jre-headless" then return to this part of the tutorial and run `java -version` again. You should see that Java 8 is installed now. 
 
+<!--
 If Java is installed, you will see something like this in your terminal:
 
 ![Java version](img/ubuntu/java_version.png)
 
 The details of Java's version may differ from what you see above; that is perfectly fine.
+-->
 
-## Installing NightCode
-Nightcode will be where you will be actually doing you Clojure programming! 
+## Installing Nightcode
 
-![Nightcode IDE](https://sekao.net/nightcode/screenshot.png)   
+Nightcode is a Clojure IDE (Integrated Development Environment, which means that it is a text editor, like Word, only specialized for writing programs) that comes bundled with other tools useful for 
+working with Clojure. 
 
-Click here [NightCode 1.0.1]([Nightcode 1.0.1](https://github.com/oakes/Nightcode/releases/download/1.0.1/nightcode-1.0.1-standalone.jar) to download Nightcode. 
+![Nightcode IDE](img/nightcode.jpg)
 
-There should now be a file named `nightcode-1.0.1-standalone.jar` in your Downloads folder, move it to your Applications folder.
+To download and install Nightcode, go to [https://sekao.net/nightcode/](https://sekao.net/nightcode/), scroll down a bit to **Download Version 2.1.5** and click on the icon that corresponds to your Linux setup. Run the downloaded installer. 
 
-You should be able to open NightCode by just double clicking on `nightcode-1.0.1-standalone.jar` but if that doesn't work you will need to open the terminal(see above) and type `java -jar <path to nightcode download>`. Here is an example, if you have downloaded Nightcode to `~/tools/nightcode`, you would type the following in the terminal.
+You may get a message indicating that this type of files may be harmful for your computer and asking you if you still would like to run it. Allow running it. If you get a message that the firewall has blocked some of its features, click "allow access". 
 
-```
-java -jar ~/tools/nightcode/nightcode-1.0.1-standalone.jar
-```
+Once Nightcode is successfully installed, it will start and look like the picture above (only without all the code).
 
 Now follow to instructions for your track to get the Clojure project you will be working on: 
 
