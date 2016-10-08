@@ -1,4 +1,4 @@
-# ClojureBridge Boston - Spring 2016
+# ClojureBridge Boston - October 2016
 
 Welcome to the ClojureBridge Boston getting started page!
 
