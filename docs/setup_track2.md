@@ -19,15 +19,14 @@ To run the Koans, do the following
 
  1. In the Nightcode project files panel on the left, select the file *src/koans/01_equalities.clj*. This will open the file in the editing panel.
  2. Click `Run with REPL`
- 3. Click `Reload`
- 4. Click `Eval`. You will see an assertion failure like the one below
+ 3. Click `Reload`, You will see an assertion failure like the one below
 
  ```
  ExceptionInfo We shall contemplate truth by testing reality, via equality
  (= __ true)  clojure.core/ex-info (core.clj:4327)
  ```
  
- 4. Modify the code in the file as below and click `Eval` again
+ 4. Modify the code in the file as below and click `Save`, then click `Reload`
  
  ```
  "We shall contemplate truth by testing reality, via equality"
