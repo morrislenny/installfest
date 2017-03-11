@@ -41,10 +41,12 @@ working with Clojure.
 
 ![Nightcode IDE](img/nightcode.png)
 
+<!--
 Note that we will be using Nightcode **1.3.2**, not any of the later versions of Nightcode. 
+-->
 
-To download and install Nightcode 1.3.2, go to [https://github.com/oakes/Nightcode/releases/tag/1.3.2](https://github.com/oakes/Nightcode/releases/tag/1.3.2). 
-Under Downloads, click on **nightcode-1.3.2-standalone.jar**. 
+To download and install Nightcode, go to [https://sekao.net/nightcode/](https://sekao.net/nightcode/). 
+Scroll down to "Download version 2.3.2" (the version number may be different), click on the Jar icon: ![Jar](img/jar.png) 
 Once it downloads, you might want to drag it into your `Programs` folder or any other place where it would be convenient to access it later (you also might want to create a folder for Clojure work and put it there). 
 After you move it, double-click on it to start. 
 
