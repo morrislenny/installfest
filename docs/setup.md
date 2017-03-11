@@ -38,6 +38,6 @@ Clojure projects have some starting Clojure code and some organizational tools. 
 
 ## Don't forget to: 
 
-* Join the Boston [ClojureBridge learners](https://clojurebridge-ma.slack.com/messages/learners/team/) slack channel: a place to ask and answer Clojure questions during and after the workshop. Check your email for an invitation. 
+* Join the Boston [ClojureBridge learners](https://clojurebridge-ma.slack.com/messages/learners/team/) slack channel: a place to ask and answer Clojure questions during and after the workshop. Check your email for an invitation a couple of days before the event. 
 
 
