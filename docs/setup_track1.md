@@ -5,7 +5,7 @@ Installfest: Getting Track 1 project
 
 ## Cloning a turtles project from a git repository
 
-git is a neat tool that is sort of like dropbox for code. It allows many people to collaborate on projects and make their code open to the rest of the world! We have prepared some code for that will run the lessons you will be using. The process of getting this code is called *cloning* and Nightcode has some nice tools that makes that process super easy! You will need to open NightCode and follow these instructions:
+Git is a neat tool that is sort of like dropbox for code. It allows many people to collaborate on projects and make their code open to the rest of the world! We have prepared some code for that will run the lessons you will be using. The process of getting this code is called *cloning* and Nightcode has some nice tools that makes that process super easy! You will need to open NightCode and follow these instructions:
 
 1. Go to Start menu, select "Clone from Git": ![Clone from Git menu](img/git.png). 
 2. It will open a window asking for `git address`. Copy this address `https://github.com/clojurebridge-boston/track1-turtles.git` and press `enter`.
